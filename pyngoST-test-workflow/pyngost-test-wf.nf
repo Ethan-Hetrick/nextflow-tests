@@ -30,7 +30,6 @@ process PYNGOST {
     errorStrategy 'ignore'
 
     container '/scicomp/home-pure/rqu4/TESTING/SOFTWARE/pyngoST/pyngost%24eb4485a76f34a9b9cbd345e940d01a.sif'
-    //containerOptions "--bind /etc/pki/tls/certs/ca-bundle.crt --env REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt"
 
     input:
     tuple val(meta), path(fasta)
