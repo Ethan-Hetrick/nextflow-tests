@@ -1,6 +1,8 @@
 process PYNGOSTDOWNLOAD {
     label 'process_single'
 
+    // Must create the container first from the def file
+    // `singularity build singularityIMG/pyngost%24eb4485a76f34a9b9cbd345e940d01a.sif singularityIMG/pyngost%24eb4485a76f34a9b9cbd345e940d01a.def`
     container '../singularityIMG/pyngost%24eb4485a76f34a9b9cbd345e940d01a.sif'
     containerOptions "--bind /etc/pki/tls/certs/ca-bundle.crt --env REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt"
 
