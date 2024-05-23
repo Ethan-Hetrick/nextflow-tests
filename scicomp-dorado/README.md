@@ -1,6 +1,6 @@
 ## Credits
 
-**scicomp/dorado was originally written by Ethan Hetrick (CDC/NCEZID/DIDRI/OAMD - Bioinformatics Scientist) & Mariana Vasquez (CDC/NCEZID/DFWED/EDLB - ORISE Fellow).**
+**scicomp/dorado was originally written by Ethan Hetrick (CDC/NCEZID/DIDRI/OAMD - Bioinformatics Scientist)**
 
 ## Introduction
 
